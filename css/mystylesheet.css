@@ -1,0 +1,124 @@
+.navbar {
+  background-color: #455e89 !important;
+}
+
+.navbar-toggler-icon {
+  background-image: none;
+  display: block;
+  height: 1px;
+  border: 0px;
+  border-top: 2px solid white;
+  margin: 8px 0;
+  padding: 0;
+}
+
+.navbar-light .navbar-toggler {
+  border-color: white;
+}
+
+.navbar-light .navbar-toggler:hover {
+  background-color: #ce0000;
+}
+
+.row {
+  margin-top: -5rem;
+}
+
+@media (width: 550px) {
+  #red-background {
+    background: #ce0000;
+    width: 11.4rem;
+    height: 17rem;
+    margin-top: 8rem;
+    margin-left: 1rem;
+    padding-top: 0.1rem;
+    box-shadow: 3px 0px 5px 0px;
+  }
+}
+
+#red-background {
+  background: #ce0000;
+  width: 11.4rem;
+  height: 9rem;
+  margin-top: 6rem;
+  margin-left: 1rem;
+  padding-top: 0.1rem;
+  box-shadow: 3px 0px 5px 0px;
+}
+
+@media (max-width: 960px) {
+    #blue-background {
+        background: #455e89;
+        width: 12.4rem;
+        height: 8.3rem;
+        margin-left: -1.4rem;
+        margin-top: 0.3rem;
+        box-shadow: 3px 0px 5px 0px;
+      }
+  }
+
+#blue-background {
+  background: #455e89;
+  width: 12.4rem;
+  height: 8.3rem;
+  margin-left: -1.4rem;
+  margin-top: 0.3rem;
+  box-shadow: 3px 0px 5px 0px;
+}
+
+#text {
+  padding-top: 1rem;
+}
+
+#text h1 {
+  color: white;
+  font-size: 20px;
+  text-align: center;
+  font-family: BankGothic Lt BT;
+}
+
+#text h2 {
+  color: white;
+  font-size: 16px;
+  text-align: center;
+  font-family: BankGothic Lt BT;
+  margin-top: -11px;
+}
+
+#text h3 {
+  color: white;
+  font-size: 13px;
+  text-align: center;
+  font-family: BankGothic Lt BT;
+  margin-top: -8px;
+}
+
+#text p {
+  color: white;
+  font-size: 11px;
+  text-align: center;
+  font-family: BankGothic Lt BT;
+  margin-top: -8px;
+}
+
+#back-circle {
+  margin-top: 6rem;
+  border-radius: 100%;
+  background: #455e89;
+}
+
+#pp {
+  width: 76%;
+  margin-left: 1rem;
+}
+
+#web-dev {
+  display: inline-flex;
+  width: 20%;
+  margin-left: 2rem;
+  height: 20%;
+}
+
+#web-dev img {
+  padding-left: 10px;
+}
