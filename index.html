@@ -1,26 +1,37 @@
 <!DOCTYPE html>
 <html lang="en">
-<head>
-    <meta charset="UTF-8">
-    <meta http-equiv="X-UA-Compatible" content="IE=edge">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <meta name="description" content="This is an online resume that showcases my work experience, but mainly to showcase my Front-End Development capabilities based on the projects that I have done.">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <meta
+      name="description"
+      content="This is an online resume that showcases my work experience, but mainly to showcase my Front-End Development capabilities based on the projects that I have done."
+    />
     <title>Sheldon Aldridge's Digital Resume</title>
-    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-EVSTQN3/azprG1Anm3QDgpJLIm9Nao0Yz1ztcQTwFspd3yD65VohhpuuCOmLASjC" crossorigin="anonymous">
+    <link
+      href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/css/bootstrap.min.css"
+      rel="stylesheet"
+      integrity="sha384-EVSTQN3/azprG1Anm3QDgpJLIm9Nao0Yz1ztcQTwFspd3yD65VohhpuuCOmLASjC"
+      crossorigin="anonymous"
+    />
 
-    <link rel="stylesheet" type="text/css" href="css/mystylesheet.css">
+    <link rel="stylesheet" type="text/css" href="css/mystylesheet.css" />
+  </head>
 
-
-</head>
-
-<body>
-  <header class="header">
-    <nav class="navbar navbar-expand-lg navbar-light bg-light">
-
+  <body>
+    <header class="header">
+      <nav class="navbar navbar-expand-lg navbar-light bg-light">
         <div class="container-fluid">
-
-          <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
-
+          <button
+            class="navbar-toggler"
+            type="button"
+            data-bs-toggle="collapse"
+            data-bs-target="#navbarNav"
+            aria-controls="navbarNav"
+            aria-expanded="false"
+            aria-label="Toggle navigation"
+          >
             <!---This is to cerate the 3 lines for the nav buton for mobile-->
             <span class="navbar-toggler-icon"></span>
             <span class="navbar-toggler-icon"></span>
@@ -30,7 +41,9 @@
           <div class="collapse navbar-collapse" id="navbarNav">
             <ul class="navbar-nav">
               <li class="nav-item">
-                <a class="nav-link active" aria-current="page" href="#">Education</a>
+                <a class="nav-link active" aria-current="page" href="#"
+                  >Education</a
+                >
               </li>
               <li class="nav-item">
                 <a class="nav-link" href="#">Experience</a>
@@ -47,27 +60,93 @@
       </nav>
 
       <div class="container">
+        <div class="coverImage">
           <div class="row">
-            <div class="col col1">
-              <p class="fs-1 text1">Sheldon</p>
-              <p class="fs-1 text1">Aldridge</p>
-              <p class="fs-2 text2">Front-End Developer</p>
-              <p class="fs-3 text3">Thinking Big. Thinking Design</p>
-            </div>
             <div class="col">
-              <img src="images/header-profile-pic-small.png" class="img-fluid" alt="profile-picture">
+            <h1 class="h1">Sheldon</h1>
+            <h1 class="h1">Aldridge</h1>
+            <h2 class="h2">Front-End Developer</h2>
+            <h3 class="h3">Thinking Big. Thinking Design</h3>
+          </div>
+            <div class="col">
+              <picture>
+                <source
+                  media="(max-width: 650px)"
+                  srcset="images/header-profile-pic-small.png"
+                />
+                <source
+                  media="(max-width: 1000px)"
+                  srcset="images/header-profile-pic-min.png"
+                />
+                <img
+                  src="images/header-profile-pic-min.png"
+                  class="img-fluid"
+                  alt="profile-picture"
+                />
+              </picture>
             </div>
+            </div>
+          </div>
         </div>
       </div>
-  </header>
-<main>
-  <div class="container-lg">
-    <div class="education">Education</div>
-  </div>
-</main>
-  
-      
-    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/js/bootstrap.bundle.min.js" integrity="sha384-MrcW6ZMFYlzcLA8Nl+NtUVF0sA7MsXsP1UyJoMp4YLEuNSfAP+JcXn/tWtIaxVXM" crossorigin="anonymous"></script>
+    </header>
+    <main>
+      <div class="container-lg">
+        <div class="education">Education</div>
+      </div>
 
-</body>
+      <div class="grid">
+      <div class="row row-cols-1 row-cols-md-2 g-4">
+        <div class="col-md-auto">
+          <div class="card">
+            <div class="card-body">
+              <h5 class="card-title">Front-End Development</h5>
+              <h6 class="card-subtitle mb-2 text-muted">CodeSapce</h6>
+              <p class="card-text">Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make a type specimen book. It has survived not only five centuries, but also the leap into electronic typesetting, remaining essentially unchanged. It was popularised in the 1960s with the release of Letraset sheets containing Lorem Ipsum passages, and more recently with desktop publishing software like Aldus PageMaker including versions of Lorem Ipsum.</p>
+            </div>
+          </div>
+        </div>
+
+        <div class="col-md-auto">
+          <div class="card">
+            <div class="card-body">
+              <h5 class="card-title">User Experience Designer</h5>
+              <h6 class="card-subtitle mb-2 text-muted">GetSmarter</h6>
+              <p class="card-text">Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make a type specimen book. It has survived not only five centuries, but also the leap into electronic typesetting, remaining essentially unchanged. It was popularised in the 1960s with the release of Letraset sheets containing Lorem Ipsum passages, and more recently with desktop publishing software like Aldus PageMaker including versions of Lorem Ipsum.</p>
+            </div>
+          </div>
+        </div>
+
+        <div class="col-md-auto">
+          <div class="card">
+            <div class="card-body">
+              <h5 class="card-title">The Complete Front-End Web Development Course</h5>
+              <h6 class="card-subtitle mb-2 text-muted"> Udemy</h6>
+              <p class="card-text">Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make a type specimen book. It has survived not only five centuries, but also the leap into electronic typesetting, remaining essentially unchanged. It was popularised in the 1960s with the release of Letraset sheets containing Lorem Ipsum passages, and more recently with desktop publishing software like Aldus PageMaker including versions of Lorem Ipsum.</p>
+            </div>
+          </div>
+        </div>
+
+        <div class="col-8">
+          <div class="card">
+            <div class="card-body">
+              <h5 class="card-title">The Complete Front-End Web Development Course</h5>
+              <h6 class="card-subtitle mb-2 text-muted"> Udemy</h6>
+              <p class="card-text">Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make a type specimen book. It has survived not only five centuries, but also the leap into electronic typesetting, remaining essentially unchanged. It was popularised in the 1960s with the release of Letraset sheets containing Lorem Ipsum passages, and more recently with desktop publishing software like Aldus PageMaker including versions of Lorem Ipsum.</p>
+            </div>
+          </div>
+        </div>
+      </div>
+
+  </div>
+      
+      
+    </main>
+
+    <script
+      src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/js/bootstrap.bundle.min.js"
+      integrity="sha384-MrcW6ZMFYlzcLA8Nl+NtUVF0sA7MsXsP1UyJoMp4YLEuNSfAP+JcXn/tWtIaxVXM"
+      crossorigin="anonymous"
+    ></script>
+  </body>
 </html>
