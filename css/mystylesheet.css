@@ -71,6 +71,7 @@
   background-color: #455e89;
   max-width: 100%;
 }
+
 .education {
   text-align: center;
   font-size: 30px;
@@ -84,12 +85,20 @@
 
 
 .card-group {
-  grid-gap: 10rem;
-  margin: 1rem;
+  display: grid;
+  grid-template-columns: 25% 25% 25%;
+  grid-gap:3rem;
+  padding-left: 10%
 }
 
 .card {
   background-color: #a22f45;
+}
+
+.card-img-top 
+{
+  width:50%;
+  margin-left:25%;
 }
 
 .card-title {
@@ -122,16 +131,15 @@
 }
 
 .row{
-  display:inline-grid;
-  grid-template-columns: 40rem 40rem 26.6rem;
   margin: 0%;
-  padding-left: 2%;
+  margin-top: 1rem;
+  margin-bottom: 1rem;
 }
 
 .back-square {
   
   margin: 2rem;
-  width: 30rem;
+  width: 40rem;
   height: 30rem;
   background-color: rgba(68, 93, 136, 0.64);
   box-shadow: -6px 0px 10px 4px;
@@ -139,7 +147,7 @@
 
 .front-square {
   margin: 0.5rem;
-  width: 20rem;
+  width: 40rem;
   height: 26rem;
   background-color: rgba(162, 47, 68, 0.69);
   box-shadow: -6px 0px 10px 4px;
@@ -165,6 +173,43 @@
   margin-left: 1rem;
   margin-right: 1rem;
 }
+
+
+.projects
+{
+  text-align: center;
+  font-size: 30px;
+  margin-top: 1rem;
+}
+
+.contact
+{
+  text-align: center;
+  font-size: 30px;
+  margin-top: 1rem;
+}
+
+.form-canvas
+{
+  background-color: #a22f45;
+  width: 40rem;
+  height: 20rem;
+  margin-left:25%;
+}
+
+.container-contact {
+  position: relative;
+  background-color: #455e89;
+  max-width: 100%;
+  padding-bottom: 3rem;
+}
+
+.form-control
+{
+  padding-right: 1rem;
+}
+
+/*Make some classes responsive depending on screen resolution*/
 
 @media(min-width:768px)
 
@@ -261,15 +306,20 @@
 @media(min-width:375px)
 
 {
+  .card-group
+  {
+    margin: 0;
+  }
   .row
 {
   margin-right: 0rem;
+  margin-bottom: 5rem;
 }
   .back-square {
   
     margin: 2rem;
     width: 25rem;
-    height: 25rem;
+    height: 26rem;
     background-color: rgba(68, 93, 136, 0.64);
     box-shadow: -6px 0px 10px 4px;
   }
@@ -277,7 +327,7 @@
   .front-square {
     margin: 0.5rem;
     width: 103%;
-    height: 25rem;
+    height: 26rem;
     background-color: rgba(162, 47, 68, 0.69);
     box-shadow: -6px 0px 10px 4px;
   }
