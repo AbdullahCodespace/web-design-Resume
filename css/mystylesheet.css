@@ -31,32 +31,39 @@
   box-shadow: inset 0 0 0 2000px rgba(49, 48, 48, 0.5);
   min-width: 100%;
   height: auto;
-  margin-left: -1%;
-  margin-right: -0.8%;
 }
 
-.row {
-  margin-right: 0%;
+.rowheader {
+  margin: 0%;
+  display: grid;
+  grid-template-columns: repeat(2, 1fr);
 }
 
 .container {
+  padding: 0%;
   max-width: 100%;
 }
 
-.h1 {
-  margin-top: 10px;
-  font-size: 0.7rem !important;
+
+.col h1 {
+  margin-top: 3rem;
+  font-size: 3rem !important;
   text-align: center;
+  font-family: BankGothic Lt BT;
 }
 
-.h2 {
-  font-size: 0.5rem !important;
+.col h2 {
+  margin-top: 3rem;
+  font-size: 2rem !important;
   text-align: center;
+  font-family: BankGothic Lt BT;
 }
 
-.h3 {
-  font-size: 0.4rem !important;
+.col h3 {
+  font-size: 1.2rem !important;
   text-align: center;
+  font-family: BankGothic Lt BT;
+  color: white;
 }
 
 .container-lg {
@@ -74,27 +81,225 @@
   width: 50%;
 }
 
-.row-cols-1 {
-  display: inline-flex;
-  flex-direction: row;
+
+
+.card-group {
+  grid-gap: 10rem;
+  margin: 1rem;
 }
 
 .card {
-  background-color: rgba(237, 227, 102, 0.5);
-  padding:1%;
+  background-color: #a22f45;
 }
 
-.grid {
-  display: inline-flex;
-  flex-direction: row;
-  flex-wrap: nowrap;
-  justify-content: flex-end;
-  align-items: flex-end;
+.card-title {
+  font-weight: bold;
+  font-family: BankGothic Lt BT;
+  text-align: center;
+  color: white;
 }
 
-.col-md-auto
+.card-subtitle {
+  font-weight: bolder;
+  font-family: Roboto;
+  padding-top: 1rem;
+  color: white !important;
+}
+.card-text {
+  color: white;
+  font-family: Lato;
+}
+
+.experiecne {
+  text-align: center;
+  font-size: 30px;
+  margin-top: 1rem;
+}
+
+.justify-content-md-center
 {
-  margin: 3rem;
-  flex: 0 0 auto;
-  max-width:25%;
+  display: flex;
+}
+
+.row{
+  display:inline-grid;
+  grid-template-columns: 40rem 40rem 26.6rem;
+  margin: 0%;
+  padding-left: 2%;
+}
+
+.back-square {
+  
+  margin: 2rem;
+  width: 30rem;
+  height: 30rem;
+  background-color: rgba(68, 93, 136, 0.64);
+  box-shadow: -6px 0px 10px 4px;
+}
+
+.front-square {
+  margin: 0.5rem;
+  width: 20rem;
+  height: 26rem;
+  background-color: rgba(162, 47, 68, 0.69);
+  box-shadow: -6px 0px 10px 4px;
+}
+
+.card-heading
+{
+  font-weight: bold;
+  font-family: BankGothic Lt BT;
+  text-align: center;
+  color: white;
+  font-size: 1rem;
+  padding-top:1rem;
+}
+
+.mb-2
+{
+  margin-left: 1rem;
+}
+
+.ex-text
+{
+  margin-left: 1rem;
+  margin-right: 1rem;
+}
+
+@media(min-width:768px)
+
+{
+  .row
+{
+ 
+  margin: 0%;
+  margin-right: 0rem;
+}
+  .back-square {
+  
+    margin: 2rem;
+    width: 28rem;
+    height: 25rem;
+    background-color: rgba(68, 93, 136, 0.64);
+    box-shadow: -6px 0px 10px 4px;
+  }
+  
+  .front-square {
+    margin: 0.5rem;
+    width: 47rem;
+    height: 26rem;
+    background-color: rgba(162, 47, 68, 0.69);
+    box-shadow: -6px 0px 10px 4px;
+  }
+  .col h1 {
+    margin-top: 3rem;
+    font-size: 2rem !important;
+    text-align: center;
+    font-family: BankGothic Lt BT;
+  }
+  
+  .col h2 {
+    margin-top: 3rem;
+    font-size: 1.5rem !important;
+    text-align: center;
+    font-family: BankGothic Lt BT;
+  }
+  
+  .col h3 {
+    font-size: 1rem !important;
+    text-align: center;
+    font-family: BankGothic Lt BT;
+    color: white;
+  }
+}
+
+@media(min-width:576px)
+
+{
+  .row
+{
+  margin-right: 0rem;
+}
+  .back-square {
+  
+    margin: 2rem;
+    width: 25rem;
+    height: 25rem;
+    background-color: rgba(68, 93, 136, 0.64);
+    box-shadow: -6px 0px 10px 4px;
+  }
+  
+  .front-square {
+    margin: 0.5rem;
+    width: 103%;
+    height: 25rem;
+    background-color: rgba(162, 47, 68, 0.69);
+    box-shadow: -6px 0px 10px 4px;
+  }
+  .col h1 {
+    margin-top: 1rem;
+    font-size: 1.5rem !important;
+    text-align: center;
+    font-family: BankGothic Lt BT;
+  }
+  
+  .col h2 {
+    margin-top: 2rem;
+    font-size: 1rem !important;
+    text-align: center;
+    font-family: BankGothic Lt BT;
+  }
+  
+  .col h3 {
+    font-size: 0.6rem !important;
+    text-align: center;
+    font-family: BankGothic Lt BT;
+    color: white;
+  }
+}
+
+@media(min-width:375px)
+
+{
+  .row
+{
+  margin-right: 0rem;
+}
+  .back-square {
+  
+    margin: 2rem;
+    width: 25rem;
+    height: 25rem;
+    background-color: rgba(68, 93, 136, 0.64);
+    box-shadow: -6px 0px 10px 4px;
+  }
+  
+  .front-square {
+    margin: 0.5rem;
+    width: 103%;
+    height: 25rem;
+    background-color: rgba(162, 47, 68, 0.69);
+    box-shadow: -6px 0px 10px 4px;
+  }
+  .col h1 {
+    margin-top: 0.5rem;
+    font-size: 1rem !important;
+    text-align: center;
+    font-family: BankGothic Lt BT;
+  }
+  
+  .col h2 {
+    margin-top: 1rem;
+    font-size: 0.5rem !important;
+    text-align: center;
+    font-family: BankGothic Lt BT;
+  }
+  
+  .col h3 {
+    margin-bottom: 0.1rem;
+    font-size: 0.3rem !important;
+    text-align: center;
+    font-family: BankGothic Lt BT;
+    color: white;
+  }
 }
