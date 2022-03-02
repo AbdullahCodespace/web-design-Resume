@@ -96,8 +96,8 @@ body {
 
 .col-sm-2 {
   flex: 0 0 auto;
-  width: 100%;
-  padding-left: 10rem;
+  width: 70%;
+  margin-left:100%;
 }
 
 .container-lg {
@@ -183,6 +183,7 @@ article {
 }
 
 .card-text {
+  font-size:13px;
   font-family: lato;
   color: white !important;
 }
@@ -202,7 +203,6 @@ article {
 }
 
 .back-color {
-  font-weight: bold;
   text-align: center;
   padding-top: 1rem;
   padding-bottom: 1rem;
@@ -399,7 +399,7 @@ a:hover {
 }
 
 .projBack {
-  height: 42.5rem;
+  height: 40rem;
   margin: 1rem;
   margin-top: 1rem;
   margin-bottom: 1rem;
@@ -423,735 +423,573 @@ a:hover {
   width: 2rem;
 }
 
-@media(min-width:1400px)
+@media (min-width: 375px)
 {
-  .navbar {
-    background-color: #455e89 !important;
-  }
-  
-  .navbar-toggler-icon {
-    background-image: none;
+  .navbar-nav {
     display: block;
-    height: 1px;
-    border: 0px;
-    border-top: 2px solid white;
-    margin: 8px 0;
-    padding: 0;
-  }
-  
-  .navbar-light .navbar-toggler {
-    border-color: white;
-  }
-  
-  .navbar-light .navbar-toggler:hover {
-    background-color: #ce0000;
-  }
-  
-  .navbar-light .navbar-nav .nav-link.active .nav-link {
-    color: white;
-  }
-  
-  .navbar-light .navbar-nav .nav-link.active {
-    color: white;
-  }
-  
-  .navbar-light .navbar-nav .nav-link {
-    color: white;
-  }
-  .navbar-expand-lg .navbar-nav {
-    flex-direction: row;
-    margin-right: -6rem;
-  }
-  .container {
-    max-width: 100%;
-  }
-  
-  .coverImage {
-    background-size: cover;
-    background-image: url(../../images/wireframe.jpg);
-    background-color: black;
-    box-shadow: inset 0 0 0 2000px rgba(49, 48, 48, 0.5);
-    min-width: 100%;
-    height: auto;
-  }
-  
-  .rowheader {
-    margin: 0%;
-    display: grid;
-    grid-template-columns: repeat(2, 1fr);
-  }
-  
-  .col-sm-1 {
-    margin-left: 2rem;
-    margin-top: 10rem;
-  }
-  
-  .padding {
-    margin-top: 6rem;
-  }
-  
-  .fs-1 {
-    font-size: 5rem !important;
-    font-family: BankGothic Lt BT;
-    color: white;
-    width: 35rem;
-  }
-  
-  .fs-2 {
-    font-size: 4rem !important;
-    font-family: BankGothic Lt BT;
-    color: white;
-    width: 50rem;
-  }
-  
-  .fs-3 {
-    font-size: 3rem !important;
-    font-family: BankGothic Lt BT;
-    color: white;
-    width: 35rem;
-  }
-  
-  .fs-4 {
-    font-size: 2rem !important;
-    font-family: BankGothic Lt BT;
-    color: white;
-    width: 35rem;
-  }
-  
-  .col-sm-2 {
-    flex: 0 0 auto;
-    width: 100%;
-    padding-left: 10rem;
-  }
-  
-  .container-lg {
-    position: relative;
-    background-color: #455e89;
-    max-width: 100%;
-  }
-  
-  .container-md {
-    position: relative;
-    background-color: #455e89;
-    max-width: 100%;
-    padding-bottom: 1rem;
-  }
-  
-  #education {
-    text-align: center;
-    font-size: 30px;
-  }
-  
-  .gx-5 {
-    width: 100%;
-  }
-  
-  article {
-    margin-right: 0rem;
-  }
-  
-  @keyframes float {
-    0% {
-      transform: translatey(0px);
-    }
-    50% {
-      transform: translatey(-20px);
-    }
-    100% {
-      transform: translatey(0px);
-    }
-  }
-  
-  .contacts {
-    transform: translatey(0px);
-    animation: float 6s ease-in-out infinite;
-    margin-left: 30rem;
-    margin-top: 1rem;
-    grid-gap: 0;
-  }
-  
-  .row {
-    display: grid;
-    margin-left: 5rem;
-    gap: 1rem;
-    grid-template-columns: 37rem 35rem;
-  }
-  
-  .exp-row {
-    display: grid;
-    grid-template-columns: 38rem 55rem;
-    margin-left: 2rem;
-  }
-  
-  .card {
-    margin-top: 1rem;
-    background-color: rgba(162, 47, 68);
-    margin-bottom: 1rem;
-  }
-  
-  .card-title {
-    font-weight: bold;
-    font-family: BankGothic Lt BT;
-    color: white;
-  }
-  
-  .card-subtitle {
-    font-family: BankGothic Lt BT;
-    color: white !important;
-  }
-  
-  .sub-heading {
-    font-family: BankGothic Lt BT;
-    color: white !important;
-    margin-left: 1rem;
-  }
-  
-  .card-text {
-    font-family: lato;
-    color: white !important;
-  }
-  
-  .col-4 {
-    flex: 0 0 auto;
-    width: 14%;
-  }
-  
-  #aboutMe {
-    text-align: center;
-    font-size: 25px;
-  }
-  
-  .contents {
-    margin: 5rem;
-  }
-  
-  .back-color {
-    font-weight: bold;
-    text-align: center;
-    padding-top: 1rem;
-    padding-bottom: 1rem;
-    background-color: #888888;
-    color: white;
-  }
-  
-  .contents p {
-    font-size: 20px;
-    font-family: lato;
-  }
-  
-  #experience {
-    text-align: center;
-    font-size: 30px;
-  }
-  
-  .back-square {
-    margin: 1rem;
-    width: 35rem;
-    background-color: rgba(68, 93, 136, 0.64);
-    box-shadow: -6px 0px 10px 4px;
-    margin-left: 1rem;
-  }
-  
-  .front-square {
-    margin: 0.5rem;
-    width: 35rem;
-    height: 18rem;
-    background-color: rgba(162, 47, 68, 0.69);
-    box-shadow: -6px 0px 10px 4px;
-  }
-  
-  .col-sm-3 {
-    margin-left: 5rem;
-  }
-  
-  .card-heading {
-    font-weight: bold;
-    font-family: BankGothic Lt BT;
-    text-align: center;
-    color: white;
-    font-size: 1rem;
-    padding-top: 1rem;
-  }
-  
-  .text-muted {
-    font-family: BankGothic Lt BT;
-    color: white !important;
-    font-size: 1rem;
-    padding-top: 1rem;
-    padding-left: 0rem;
-  }
-  
-  .ex-text {
-    font-family: lato;
-    color: white;
-  }
-  
-  .ex-text {
-    margin-left: 1rem;
-    margin-right: 1rem;
-  }
-  
-  #projects {
-    text-align: center;
-    font-size: 30px;
-  }
-  
-  .socialMedia {
-    text-align: center;
-    font-size: 30px;
-    margin-bottom: 1rem;
-  }
-  
-  .socialMedia img {
-    text-align: center;
-    width: 3%;
-    margin-right: 1rem;
-    margin-top: 1rem;
-  }
-  
-  .footer img {
-    margin-right: 38px;
-  }
-  
-  a {
-    color: #455e89;
-    text-decoration: underline;
-  }
-  
-  a:hover {
-    color: #455e89;
-    text-decoration: underline;
-  }
-  
-  .contacts {
-    display: flex;
-    flex-direction: unset;
-    grid-gap: 4rem;
-    padding-top: 3rem;
-  }
-  
-  .loc img {
-    margin-left: 4.7rem;
-    padding-top: 20px;
-    width: 3rem;
-  }
-  
-  #text {
-    opacity: 0;
-    font-size: 16px;
-    color: white;
-  }
-  
-  .loc:hover #text {
-    opacity: 1;
-    transition: all 0.5s;
-  }
-  
-  .loc img:hover {
-    cursor: pointer;
-  }
-  
-  .loc li {
-    list-style-type: none;
-  }
-  
-  .cell {
-    display: flex;
-    flex-direction: row;
-    padding-top: 10px;
-  }
-  
-  .cell img {
-    margin-left: 1rem;
-    width: 3rem;
-  }
-  
-  .cell img:hover {
-    cursor: pointer;
-  }
-  
-  .cell:hover #text {
-    opacity: 1;
-    transition: all 0.5s;
-  }
-  
-  .cell li {
-    list-style-type: none;
-    padding: 11px;
-    color: white;
-  }
-  
-  .cell p {
-    font-size: 16px;
-    margin-left: -1rem;
-  }
-  
-  .email {
-    display: flex;
-    flex-direction: row;
-  }
-  
-  .email img {
-    margin-left: 1rem;
-    cursor: pointer;
-    padding-top: 8px;
-  }
-  
-  .email li {
-    list-style-type: none;
-    padding: 11px;
-    color: white;
-  }
-  
-  .email p {
-    margin-left: -59px;
-    font-size: 16px;
-  }
-  
-  .email:hover #text {
-    opacity: 1;
-    transition: all 0.5s;
-  }
-  
-  .email a {
-    color: white;
-  }
-  
-  .nav-menu a:hover {
-    background-color: #1d3557;
-    padding: 1px;
-  }
-  
-  .projBack {
-    height: 42.5rem;
-    margin: 1rem;
-    margin-top: 1rem;
-    margin-bottom: 1rem;
-  }
-  
-  .slide {
-    width: 100%;
-  }
-  
-  .carousel-item {
-    position: relative;
-  }
-  
-  .carousel-control-prev {
-    background-color: #1d3557;
-    width: 2rem;
-  }
-  
-  .carousel-control-next {
-    background-color: #1d3557;
-    width: 2rem;
-  }
+}
+.contacts
+{
+  margin-left:7rem;
+  margin-top: -15rem;
+  display: none;
 }
 
-@media (min-width: 992px) and (max-width: 1200px)
-  {
-    .contacts {
-      margin-left: 13rem;
-  }
-    .row {
-      display: grid;
-      margin-left: 0;
-      gap: 1rem;
-      grid-template-columns: 43rem 37rem;
-  }
-  .col-sm-1 {
-    padding-top: 10rem;
-    margin-top: 0rem;
-  }
-  .fs-1 {
-    font-size: 2.3rem !important;
-    width: 0;
-  }
-  .fs-2 {
-    font-size: 2rem!important;
-    width: 34rem;
-  }
-  .fs-3 {
-    font-size: 1.8rem !important;
-    width: 29rem;
-  }
-  .fs-4 {
-    font-size: 1.2rem !important;
-    width: 25rem;
-  }
-  .back-color {
-    text-align: justify;
+.rowheader {
+  display: grid;
 }
-.contents {
-  margin: 0.5rem;
+.col-sm-1 {
+  margin-top: 0;
 }
-.contents p {
-  margin: 20px;
+.col-sm-2 {
+  margin-bottom: -1rem;
+ }
+.fs-1 {
+  
+  width: 9rem;
+  font-size:2rem !important;
 }
-.row {
-
-  grid-template-columns: 32rem 37rem;
+.fs-2 {
+  
+  width: 20rem;
+  font-size:1.6rem !important;
 }
-.front-square {
-  width: 100%;
-  height: 100%;
+.fs-3 {
+  
+  width: 20rem;
+  font-size:1.5rem !important;
 }
-.projBack {
-  height: 33rem;
-}
-.slide {
-  width: 100%;
-}
-.social-icons img {
-  width: 3rem;
-  padding-left: 1rem;
-}
-.social-icons ul {
-  padding-left: 0rem;
+.fs-4 {
+  
+  width: 20rem;
+  font-size:1rem !important;
 }
 
-.projBack {
-  height: 33rem;
+.back-color
+{
+  text-align: justify;
+}
+.contents
+{
+  margin:1rem;
+}
+.contents p
+{
+  font-size: 13px;
+}
+.skill-btn
+{
+  position: absolute;
+  margin-top: -3rem;
+  margin-left: 1rem;
+}
+.card
+{
+  background-color: rgba(162, 47, 68,0.7);
 }
 
-  }
+.card li
+{
+  color: white;
+  list-style-type: none;
+}
+#aboutMe {
+ font-size:20px;
+}
+#education {
+  font-size:20px;
+ }
+ #experience {
+  font-size:20px;
+ }
+ #projects{
+  font-size:20px;
+ }
+#projects{
+  font-size:20px;
+ }
+ .socialMedia
+ {
+  font-size:20px;
+ }
+.row
+{
+  display:block;
+  margin-left:0;
+}
+.card-title
+{
+  font-size:15px;
+  text-align: center;
+}
 
-@media (min-width: 577px) and (max-width: 768px) {
-  .contacts {
-    display: flex;
-    flex-direction: column;
-    margin-left: 8rem;
-    margin-top: -13rem;
-  }
-  .loc img {
-    margin-left: 4rem;
-  }
-  .rowheader {
+.projBack
+{
+  height: 9.5rem;
+}
+.social-icons img
+{
+  width:8%;
+}
+
+}
+
+@media (min-width: 576px)
+{
+  .navbar-nav {
     display: block;
-    grid-template-columns: repeat(2, 1fr);
-  }
-  .col-sm-1 {
-    padding-top: 1rem;
-    margin-top: 0rem;
-  }
-  .fs-1 {
-    font-size: 2rem !important;
-    width: 0;
-  }
-  .fs-2 {
-    font-size: 1.8rem !important;
-    width: 21rem;
-  }
-  .fs-3 {
-    font-size: 1.6rem !important;
-    width: 21rem;
-  }
-  .fs-4 {
-    font-size: 1rem !important;
-    width: 25rem;
-  }
-  #aboutMe {
-    font-size: 20px;
-  }
-  #education {
-    font-size: 20px;
-  }
-  #experience {
-    font-size: 20px;
-  }
-  #projects {
-    font-size: 20px;
-  }
-  .back-color {
-    text-align: justify;
-  }
-  .contents {
-    margin: 0.5rem;
-  }
-  .contents p {
-    font-size: 15px;
-    font-family: lato;
-  }
-  .row {
+}
+.contacts
+{
+  margin-left:7rem;
+  margin-top: -15rem;
+  display: none;
+}
+
+.rowheader {
+  display: block;
+}
+.col-sm-1 {
+  margin-top: 0;
+}
+.col-sm-2 {
+ margin-bottom: -1rem;
+}
+.fs-1 {
+  
+  width: 9rem;
+  font-size:2rem !important;
+}
+.fs-2 {
+  
+  width: 20rem;
+  font-size:1.6rem !important;
+}
+.fs-3 {
+  
+  width: 20rem;
+  font-size:1.5rem !important;
+}
+.fs-4 {
+  
+  width: 20rem;
+  font-size:1rem !important;
+}
+
+.back-color
+{
+  text-align: justify;
+}
+.contents
+{
+  margin:1rem;
+}
+.contents p
+{
+  font-size: 13px;
+}
+.skill-btn
+{
+  position: absolute;
+  margin-top: -2rem;
+  margin-left: 1rem;
+}
+.card
+{
+  background-color: rgba(162, 47, 68,0.7);
+}
+
+.card li
+{
+  color: white;
+  list-style-type: none;
+}
+#aboutMe {
+ font-size:25px;
+}
+#education {
+  font-size:25px;
+ }
+ #experience {
+  font-size:25px;
+ }
+ #projects{
+  font-size:25px;
+ }
+#projects{
+  font-size:25px;
+ }
+ .socialMedia
+ {
+  font-size:25px;
+ }
+.row
+{
+  display:block;
+  margin-left:0;
+}
+.card-title
+{
+  font-size:15px;
+  text-align: center;
+}
+
+.projBack
+{
+  height:24rem;
+}
+.social-icons img
+{
+  width:8%;
+}
+
+}
+
+@media (min-width: 768px)
+{
+  .navbar-nav {
     display: block;
-    margin-left: 0;
-  }
+}
+.contacts
+{
+  margin-left:7rem;
+  margin-top: -15rem;
+  display: none;
+}
 
-  .back-square {
-    width: 31.5rem;
-  }
-
-  .front-square {
+.rowheader {
+  display: flex;
+  height: 28rem;
     width: 31rem;
-    height: 12rem;
-  }
-  .card-title {
-    font-size: 15px;
-    text-align: center;
-  }
-  .text-muted {
-    font-size: 13px;
-  }
-  .card-text {
-    font-size: 13px;
-  }
-  .card-heading {
-    font-size: 13px;
-  }
-  .sub-heading {
-    font-size: 13px;
-  }
-  .ex-text {
-    font-size: 12px;
-  }
-
-  .projBack {
-    height: 10rem;
-  }
-  .slide {
-    width: 22.5rem;
-  }
-  .carousel-control-prev {
-    width: 2rem;
-  }
-  .carousel-control-next {
-    width: 2rem;
-  }
-  .socialMedia {
-    font-size: 20px;
-  }
-  .social-icons img {
-    width: 2.5rem;
-    padding-left: 1rem;
-  }
-  .social-icons ul {
-    padding-left: 0rem;
-  }
-  .projBack {
-    height: 16rem;
-  }
-  .slide {
-    width: 100%;
-  }
-  .social-icons img {
-    width: 3rem;
-    padding-left: 1rem;
-  }
-  .social-icons ul {
-    padding-left: 0rem;
-  }
+}
+.col-sm-1 {
+  margin-top: 6rem;
+}
+.col-sm-2 {
+ margin-bottom: -25rem;
+}
+.fs-1 {
+  
+  width: 9rem;
+  font-size:2rem !important;
+}
+.fs-2 {
+  
+  width: 20rem;
+  font-size:1.6rem !important;
+}
+.fs-3 {
+  
+  width: 20rem;
+  font-size:1.5rem !important;
+}
+.fs-4 {
+  
+  width: 20rem;
+  font-size:1rem !important;
 }
 
-@media (min-width: 360px) and (max-width: 576px) {
-  .contacts {
+.back-color
+{
+  text-align: justify;
+}
+.contents
+{
+  margin:1rem;
+}
+.contents p
+{
+  font-size: 13px;
+}
+.skill-btn
+{
+  position: absolute;
+  margin-top: -3rem;
+  margin-left: 1rem;
+}
+.card
+{
+  background-color: rgba(162, 47, 68,0.7);
+}
+
+.card li
+{
+  color: white;
+  list-style-type: none;
+}
+#aboutMe {
+ font-size:30px;
+ margin-top: -1rem;
+}
+#education {
+  font-size:30px;
+ }
+ #experience {
+  font-size:30px;
+ }
+ #projects{
+  font-size:30px;
+ }
+#projects{
+  font-size:30px;
+ }
+ .socialMedia
+ {
+  font-size:30px;
+ }
+.row
+{
+  display:grid;
+  margin-left:2%;
+  grid-template-columns: 24rem 26rem;
+}
+}
+.card-title
+{
+  font-size:15px;
+  text-align: center;
+}
+
+.projBack
+{
+  height:24rem;
+}
+.social-icons img
+{
+  width:4%;
+}
+
+
+@media (min-width: 1000px)
+{
+  .navbar-nav {
     display: flex;
-    flex-direction: column;
-    margin-left: 8rem;
-    margin-top: -13rem;
-  }
-  .loc img {
-    margin-left: 1.7rem;
-  }
-  .rowheader {
-    display: block;
-    grid-template-columns: repeat(2, 1fr);
-  }
-  .col-sm-1 {
-    padding-top: 1rem;
-    margin-top: 0rem;
-  }
+}
+.contacts
+{
+  margin-left: 30%;
+  margin-top: 1rem;
+  display: flex;
+}
 
-  .fs-1 {
-    font-size: 1rem !important;
-    width: 0;
-  }
-  .fs-2 {
-    font-size: 0.8rem !important;
-    width: 16rem;
-  }
-  .fs-3 {
-    font-size: 0.6rem !important;
-    width: 16rem;
-  }
-  .fs-4 {
-    font-size: 0.4rem !important;
-    width: 16rem;
-  }
-  #aboutMe {
-    font-size: 20px;
-  }
-  #education {
-    font-size: 20px;
-  }
-  #experience {
-    font-size: 20px;
-  }
-  #projects {
-    font-size: 20px;
-  }
+.rowheader {
+  display: flex;
+  height: 28rem;
+    width: 31rem;
+}
+.col-sm-1 {
+  margin-top: 6rem;
+}
+.col-sm-2 {
+ margin-bottom: -25rem;
+ margin-left: 50rem
+}
+.fs-1 {
+  
+  width: 9rem;
+  font-size:3rem !important;
+}
+.fs-2 {
+  
+  width: 30rem;
+  font-size:2.6rem !important;
+}
+.fs-3 {
+  
+  width: 29rem;
+  font-size:2.5rem !important;
+}
+.fs-4 {
+  
+  width: 33rem;
+  font-size:1.3rem !important;
+}
 
-  .back-color {
-    text-align: left;
-  }
-  .contents {
-    margin: 1rem;
-  }
-  .contents p {
-    margin: 0rem;
-    font-size: 13px;
-  }
-  .row {
-    display: block;
-    margin-left: 0;
-  }
-  .back-square {
-    width: 100%;
-  }
+.back-color
+{
+  text-align: justify;
+}
+.contents
+{
+  margin:1rem;
+}
+.contents p
+{
+  font-size: 20px;
+  text-align: justify;
+}
+.skill-btn
+{
+  position: absolute;
+  margin-top: -3rem;
+  margin-left: 1rem;
+}
+.card
+{
+  background-color: rgba(162, 47, 68,0.7);
+}
 
-  .front-square {
-    width: 100%;
-  }
+.card li
+{
+  color: white;
+  list-style-type: none;
+}
+#aboutMe {
+ font-size:30px;
+ margin-top: -1rem;
+}
+#education {
+  font-size:30px;
+ }
+ #experience {
+  font-size:30px;
+ }
+ #projects{
+  font-size:30px;
+ }
+#projects{
+  font-size:30px;
+ }
+ .socialMedia
+ {
+  font-size:30px;
+ }
+.row
+{
+  display:grid;
+  margin-left:2rem;
+  grid-template-columns: 37rem 35rem;
+}
+.card-title
+{
+  font-size:15px;
+  text-align: center;
+}
 
-  .card-title {
-    font-size: 15px;
-    text-align: center;
-  }
-  .text-muted {
-    font-size: 13px;
-  }
-  .card-text {
-    font-size: 13px;
-  }
-  .card-heading {
-    font-size: 13px;
-  }
-  .sub-heading {
-    font-size: 13px;
-  }
-  .ex-text {
-    font-size: 12px;
-  }
-  .projBack {
-    height: 10rem;
-  }
-  .slide {
-    width: 100%;
-  }
-  .carousel-control-prev {
-    width: 2rem;
-  }
-  .carousel-control-next {
-    width: 2rem;
-  }
-  .socialMedia {
-    font-size: 20px;
-  }
-  .social-icons img {
-    width: 2.5rem;
-    padding-left: 1rem;
-  }
-  .social-icons ul {
-    padding-left: 0rem;
-  }
- 
+.projBack
+{
+  height:36rem;
+}
+.social-icons img
+{
+  width:5%;
+}
+
+}
+
+@media (min-width: 1400px)
+{
+  .navbar-nav {
+    display: flex;
+}
+.contacts
+{
+  margin-left: 30%;
+  margin-top: 1rem;
+  display: flex;
+}
+
+.rowheader {
+  display: flex;
+  height: 28rem;
+    width: 31rem;
+}
+.col-sm-1 {
+  margin-top: 6rem;
+}
+.col-sm-2 {
+ margin-bottom: -25rem;
+ margin-left: 50rem
+}
+.fs-1 {
+  
+  width: 9rem;
+  font-size:3rem !important;
+}
+.fs-2 {
+  
+  width: 30rem;
+  font-size:2.6rem !important;
+}
+.fs-3 {
+  
+  width: 29rem;
+  font-size:2.5rem !important;
+}
+.fs-4 {
+  
+  width: 33rem;
+  font-size:1.3rem !important;
+}
+
+.back-color
+{
+  text-align: justify;
+}
+.contents
+{
+  margin:1rem;
+}
+.contents p
+{
+  font-size: 20px;
+  text-align: justify;
+}
+.skill-btn
+{
+  position: absolute;
+  margin-top: -3rem;
+  margin-left: 1rem;
+}
+.card
+{
+  background-color: rgba(162, 47, 68,0.7);
+}
+
+.card li
+{
+  color: white;
+  list-style-type: none;
+}
+#aboutMe {
+ font-size:30px;
+ margin-top: -1rem;
+}
+#education {
+  font-size:30px;
+ }
+ #experience {
+  font-size:30px;
+ }
+ #projects{
+  font-size:30px;
+ }
+#projects{
+  font-size:30px;
+ }
+ .socialMedia
+ {
+  font-size:30px;
+ }
+.row
+{
+  display:grid;
+  margin-left:10%;
+  grid-template-columns: 37rem 35rem;
+}
+.card-title
+{
+  font-size:15px;
+  text-align: center;
+}
+
+.projBack
+{
+  height:42rem;
+}
+.social-icons img
+{
+  width:3%;
+}
+
 }
