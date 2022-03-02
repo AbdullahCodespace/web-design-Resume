@@ -436,33 +436,35 @@ a:hover {
 }
 
 .rowheader {
-  display: grid;
+  display: block;
 }
 .col-sm-1 {
   margin-top: 0;
 }
 .col-sm-2 {
-  margin-bottom: -1rem;
+  margin-bottom: -2rem;
+  width: 70%;
+  margin-left: 35%;
  }
 .fs-1 {
   
-  width: 9rem;
-  font-size:2rem !important;
+  width: 10rem;
+  font-size:1rem !important;
 }
 .fs-2 {
   
-  width: 20rem;
-  font-size:1.6rem !important;
+  width: 10rem;
+  font-size:0.8rem !important;
 }
 .fs-3 {
   
-  width: 20rem;
-  font-size:1.5rem !important;
+  width: 10rem;
+  font-size:0.6rem !important;
 }
 .fs-4 {
   
-  width: 20rem;
-  font-size:1rem !important;
+  width: 10rem;
+  font-size:0.4rem !important;
 }
 
 .back-color
@@ -525,7 +527,7 @@ a:hover {
 
 .projBack
 {
-  height: 9.5rem;
+  height: 9rem;
 }
 .social-icons img
 {
@@ -633,7 +635,23 @@ a:hover {
   font-size:15px;
   text-align: center;
 }
+.skill-btn
+{
+  position: absolute;
+  margin-top: -3rem;
+  margin-left: 1rem;
+  padding:1rem;
+}
+.card
+{
+  background-color: rgba(162, 47, 68,0.7);
+}
 
+.card li
+{
+  color: white;
+  list-style-type: none;
+}
 .projBack
 {
   height:24rem;
