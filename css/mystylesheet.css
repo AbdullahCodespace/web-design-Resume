@@ -423,7 +423,7 @@ a:hover {
   width: 2rem;
 }
 
-@media (min-width: 375px)
+@media (min-width: 300px)
 {
   .navbar-nav {
     display: block;
