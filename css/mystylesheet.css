@@ -44,7 +44,7 @@ body {
 
 .coverImage {
   background-size: cover;
-  background-image: url(../../images/wireframe.jpg);
+  background-image: url(../images/wireframe.jpg);
   background-color: black;
   box-shadow: inset 0 0 0 2000px rgba(49, 48, 48, 0.5);
   min-width: 100%;
