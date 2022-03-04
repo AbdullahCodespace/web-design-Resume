@@ -671,119 +671,7 @@ a:hover {
 
 }
 
-@media (min-width: 768px)
-{
-  .navbar-nav {
-    display: block;
-}
-.contacts
-{
-  margin-left:7rem;
-  margin-top: -15rem;
-  display: none;
-}
 
-.rowheader {
-  display: flex;
-  height: 28rem;
-    width: 31rem;
-}
-.col-sm-1 {
-  margin-top: 6rem;
-}
-.col-sm-2 {
- margin-bottom: -25rem;
-}
-.fs-1 {
-  
-  width: 9rem;
-  font-size:2rem !important;
-}
-.fs-2 {
-  
-  width: 20rem;
-  font-size:1.6rem !important;
-}
-.fs-3 {
-  
-  width: 20rem;
-  font-size:1.5rem !important;
-}
-.fs-4 {
-  
-  width: 20rem;
-  font-size:1rem !important;
-}
-
-.back-color
-{
-  text-align: justify;
-}
-.contents
-{
-  margin:1rem;
-}
-.contents p
-{
-  font-size: 13px;
-}
-.skill-btn
-{
-  position: absolute;
-  margin-top: -3rem;
-  margin-left: 1rem;
-}
-.card
-{
-  background-color: rgba(162, 47, 68,0.7);
-}
-
-.card li
-{
-  color: white;
-  list-style-type: none;
-}
-#aboutMe {
- font-size:30px;
- margin-top: -1rem;
-}
-#education {
-  font-size:30px;
- }
- #experience {
-  font-size:30px;
- }
- #projects{
-  font-size:30px;
- }
-#projects{
-  font-size:30px;
- }
- .socialMedia
- {
-  font-size:30px;
- }
-.row
-{
-  display:grid;
-  margin-left:2%;
-  grid-template-columns: 24rem 26rem;
-}
-}
-.card-title
-{
-  font-size:15px;
-  text-align: center;
-}
-
-.projBack
-{
-  height:24rem;
-}
-.social-icons img
-{
-  width:4%;
-}
 
 @media (min-width: 768px)
 {
@@ -852,7 +740,7 @@ a:hover {
 .card
 {
   background-color: rgba(162, 47, 68,0.7);
-  margin-right: 43rem;
+  margin-right: auto;
 }
 
 .card li
