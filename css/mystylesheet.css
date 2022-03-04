@@ -1006,7 +1006,7 @@ a:hover {
 .row
 {
   display:grid;
-  margin-left:4%;
+  margin-left:0%;
   grid-template-columns: 37rem 35rem;
 }
 .card-title
