@@ -36,7 +36,7 @@ body {
 }
 .navbar-expand-lg .navbar-nav {
   flex-direction: row;
-  margin-right: -6rem;
+  margin-right: 0rem;
 }
 .container {
   max-width: 100%;
@@ -423,6 +423,7 @@ a:hover {
   width: 2rem;
 }
 
+
 @media (min-width: 300px)
 {
   .navbar-nav {
@@ -488,6 +489,7 @@ a:hover {
 .card
 {
   background-color: rgba(162, 47, 68,0.7);
+  
 }
 
 .card li
@@ -533,13 +535,19 @@ a:hover {
 {
   width:8%;
 }
-
 }
+
+
 
 @media (min-width: 576px)
 {
   .navbar-nav {
     display: block;
+}
+
+.navbar-expand-lg
+{
+  margin-right: 0rem;
 }
 .contacts
 {
@@ -777,8 +785,7 @@ a:hover {
   width:4%;
 }
 
-
-@media (min-width: 1000px)
+@media (min-width: 768px)
 {
   .navbar-nav {
     display: flex;
@@ -800,7 +807,7 @@ a:hover {
 }
 .col-sm-2 {
  margin-bottom: -25rem;
- margin-left: 50rem
+ margin-left: 32rem;
 }
 .fs-1 {
   
@@ -845,6 +852,7 @@ a:hover {
 .card
 {
   background-color: rgba(162, 47, 68,0.7);
+  margin-right: 43rem;
 }
 
 .card li
@@ -875,7 +883,125 @@ a:hover {
 .row
 {
   display:grid;
-  margin-left:2rem;
+  margin-left: 0rem;
+  grid-template-columns: 29rem 27rem;
+}
+.card-title
+{
+  font-size:15px;
+  text-align: center;
+}
+
+.projBack
+{
+  height:26rem;
+}
+.social-icons img
+{
+  width:5%;
+}
+
+}
+
+@media (min-width: 992px)
+{
+  .navbar-nav {
+    display: flex;
+}
+.contacts
+{
+  margin-left: 0%;
+  margin-top: 1rem;
+  display: flex;
+}
+
+.rowheader {
+  display: flex;
+  height: 28rem;
+    width: 31rem;
+}
+.col-sm-1 {
+  margin-top: 6rem;
+}
+.col-sm-2 {
+ margin-bottom: -25rem;
+ margin-left: 48rem;
+}
+.fs-1 {
+  
+  width: 9rem;
+  font-size:3rem !important;
+}
+.fs-2 {
+  
+  width: 30rem;
+  font-size:2.6rem !important;
+}
+.fs-3 {
+  
+  width: 29rem;
+  font-size:2.5rem !important;
+}
+.fs-4 {
+  
+  width: 33rem;
+  font-size:1.3rem !important;
+}
+
+.back-color
+{
+  text-align: justify;
+}
+.contents
+{
+  margin:1rem;
+}
+.contents p
+{
+  font-size: 20px;
+  text-align: justify;
+}
+.skill-btn
+{
+  position: absolute;
+  margin-top: -3rem;
+  margin-left: 1rem;
+}
+.card
+{
+  background-color: rgba(162, 47, 68,0.7);
+  margin-right: 59rem;
+}
+
+.card li
+{
+  color: white;
+  list-style-type: none;
+}
+#aboutMe {
+ font-size:30px;
+ margin-top: -1rem;
+}
+#education {
+  font-size:30px;
+ }
+ #experience {
+  font-size:30px;
+ }
+ #projects{
+  font-size:30px;
+ }
+#projects{
+  font-size:30px;
+ }
+ .socialMedia
+ {
+  font-size:30px;
+ }
+.row
+{
+  display:grid;
+  margin-left:0rem;
   grid-template-columns: 37rem 35rem;
 }
 .card-title
@@ -886,7 +1012,7 @@ a:hover {
 
 .projBack
 {
-  height:36rem;
+  height:33rem;
 }
 .social-icons img
 {
