@@ -900,7 +900,7 @@ a:hover {
 
 .projBack
 {
-  height:33rem;
+  height:47rem;
 }
 .social-icons img
 {
@@ -909,7 +909,7 @@ a:hover {
 
 }
 
-@media (min-width: 1400px)
+@media (min-width: 1200px)
 {
   .navbar-nav {
     display: flex;
@@ -1006,7 +1006,7 @@ a:hover {
 .row
 {
   display:grid;
-  margin-left:10%;
+  margin-left:4%;
   grid-template-columns: 37rem 35rem;
 }
 .card-title
@@ -1017,7 +1017,7 @@ a:hover {
 
 .projBack
 {
-  height:42rem;
+  height:36rem;
 }
 .social-icons img
 {
